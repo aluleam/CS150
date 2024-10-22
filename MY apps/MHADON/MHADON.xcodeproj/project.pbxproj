@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		991C0EB3299E919100DA4A9C /* MHADONApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C0EB2299E919100DA4A9C /* MHADONApp.swift */; };
+		991C0EB5299E919100DA4A9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C0EB4299E919100DA4A9C /* ContentView.swift */; };
+		991C0EB7299E919200DA4A9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991C0EB6299E919200DA4A9C /* Assets.xcassets */; };
+		991C0EBA299E919200DA4A9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991C0EB9299E919200DA4A9C /* Preview Assets.xcassets */; };
+		991C0EC4299E919200DA4A9C /* MHADONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C0EC3299E919200DA4A9C /* MHADONTests.swift */; };
+		991C0ECE299E919200DA4A9C /* MHADONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C0ECD299E919200DA4A9C /* MHADONUITests.swift */; };
+		991C0ED0299E919200DA4A9C /* MHADONUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C0ECF299E919200DA4A9C /* MHADONUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		991C0EC0299E919200DA4A9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 991C0EA7299E919100DA4A9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991C0EAE299E919100DA4A9C;
+			remoteInfo = MHADON;
+		};
+		991C0ECA299E919200DA4A9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 991C0EA7299E919100DA4A9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991C0EAE299E919100DA4A9C;
+			remoteInfo = MHADON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		991C0EAF299E919100DA4A9C /* MHADON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHADON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		991C0EB2299E919100DA4A9C /* MHADONApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHADONApp.swift; sourceTree = "<group>"; };
+		991C0EB4299E919100DA4A9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		991C0EB6299E919200DA4A9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		991C0EB9299E919200DA4A9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		991C0EBF299E919200DA4A9C /* MHADONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHADONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		991C0EC3299E919200DA4A9C /* MHADONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHADONTests.swift; sourceTree = "<group>"; };
+		991C0EC9299E919200DA4A9C /* MHADONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHADONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		991C0ECD299E919200DA4A9C /* MHADONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHADONUITests.swift; sourceTree = "<group>"; };
+		991C0ECF299E919200DA4A9C /* MHADONUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHADONUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		991C0EAC299E919100DA4A9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991C0EBC299E919200DA4A9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991C0EC6299E919200DA4A9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		991C0EA6299E919100DA4A9C = {
+			isa = PBXGroup;
+			children = (
+				991C0EB1299E919100DA4A9C /* MHADON */,
+				991C0EC2299E919200DA4A9C /* MHADONTests */,
+				991C0ECC299E919200DA4A9C /* MHADONUITests */,
+				991C0EB0299E919100DA4A9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		991C0EB0299E919100DA4A9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				991C0EAF299E919100DA4A9C /* MHADON.app */,
+				991C0EBF299E919200DA4A9C /* MHADONTests.xctest */,
+				991C0EC9299E919200DA4A9C /* MHADONUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		991C0EB1299E919100DA4A9C /* MHADON */ = {
+			isa = PBXGroup;
+			children = (
+				991C0EB2299E919100DA4A9C /* MHADONApp.swift */,
+				991C0EB4299E919100DA4A9C /* ContentView.swift */,
+				991C0EB6299E919200DA4A9C /* Assets.xcassets */,
+				991C0EB8299E919200DA4A9C /* Preview Content */,
+			);
+			path = MHADON;
+			sourceTree = "<group>";
+		};
+		991C0EB8299E919200DA4A9C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				991C0EB9299E919200DA4A9C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		991C0EC2299E919200DA4A9C /* MHADONTests */ = {
+			isa = PBXGroup;
+			children = (
+				991C0EC3299E919200DA4A9C /* MHADONTests.swift */,
+			);
+			path = MHADONTests;
+			sourceTree = "<group>";
+		};
+		991C0ECC299E919200DA4A9C /* MHADONUITests */ = {
+			isa = PBXGroup;
+			children = (
+				991C0ECD299E919200DA4A9C /* MHADONUITests.swift */,
+				991C0ECF299E919200DA4A9C /* MHADONUITestsLaunchTests.swift */,
+			);
+			path = MHADONUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		991C0EAE299E919100DA4A9C /* MHADON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991C0ED3299E919200DA4A9C /* Build configuration list for PBXNativeTarget "MHADON" */;
+			buildPhases = (
+				991C0EAB299E919100DA4A9C /* Sources */,
+				991C0EAC299E919100DA4A9C /* Frameworks */,
+				991C0EAD299E919100DA4A9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MHADON;
+			productName = MHADON;
+			productReference = 991C0EAF299E919100DA4A9C /* MHADON.app */;
+			productType = "com.apple.product-type.application";
+		};
+		991C0EBE299E919200DA4A9C /* MHADONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991C0ED6299E919200DA4A9C /* Build configuration list for PBXNativeTarget "MHADONTests" */;
+			buildPhases = (
+				991C0EBB299E919200DA4A9C /* Sources */,
+				991C0EBC299E919200DA4A9C /* Frameworks */,
+				991C0EBD299E919200DA4A9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991C0EC1299E919200DA4A9C /* PBXTargetDependency */,
+			);
+			name = MHADONTests;
+			productName = MHADONTests;
+			productReference = 991C0EBF299E919200DA4A9C /* MHADONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		991C0EC8299E919200DA4A9C /* MHADONUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991C0ED9299E919200DA4A9C /* Build configuration list for PBXNativeTarget "MHADONUITests" */;
+			buildPhases = (
+				991C0EC5299E919200DA4A9C /* Sources */,
+				991C0EC6299E919200DA4A9C /* Frameworks */,
+				991C0EC7299E919200DA4A9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991C0ECB299E919200DA4A9C /* PBXTargetDependency */,
+			);
+			name = MHADONUITests;
+			productName = MHADONUITests;
+			productReference = 991C0EC9299E919200DA4A9C /* MHADONUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		991C0EA7299E919100DA4A9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					991C0EAE299E919100DA4A9C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					991C0EBE299E919200DA4A9C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 991C0EAE299E919100DA4A9C;
+					};
+					991C0EC8299E919200DA4A9C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 991C0EAE299E919100DA4A9C;
+					};
+				};
+			};
+			buildConfigurationList = 991C0EAA299E919100DA4A9C /* Build configuration list for PBXProject "MHADON" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 991C0EA6299E919100DA4A9C;
+			productRefGroup = 991C0EB0299E919100DA4A9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				991C0EAE299E919100DA4A9C /* MHADON */,
+				991C0EBE299E919200DA4A9C /* MHADONTests */,
+				991C0EC8299E919200DA4A9C /* MHADONUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		991C0EAD299E919100DA4A9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991C0EBA299E919200DA4A9C /* Preview Assets.xcassets in Resources */,
+				991C0EB7299E919200DA4A9C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991C0EBD299E919200DA4A9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991C0EC7299E919200DA4A9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		991C0EAB299E919100DA4A9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991C0EB5299E919100DA4A9C /* ContentView.swift in Sources */,
+				991C0EB3299E919100DA4A9C /* MHADONApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991C0EBB299E919200DA4A9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991C0EC4299E919200DA4A9C /* MHADONTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991C0EC5299E919200DA4A9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991C0ECE299E919200DA4A9C /* MHADONUITests.swift in Sources */,
+				991C0ED0299E919200DA4A9C /* MHADONUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		991C0EC1299E919200DA4A9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991C0EAE299E919100DA4A9C /* MHADON */;
+			targetProxy = 991C0EC0299E919200DA4A9C /* PBXContainerItemProxy */;
+		};
+		991C0ECB299E919200DA4A9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991C0EAE299E919100DA4A9C /* MHADON */;
+			targetProxy = 991C0ECA299E919200DA4A9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		991C0ED1299E919200DA4A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		991C0ED2299E919200DA4A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		991C0ED4299E919200DA4A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MHADON/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = making.MHADON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		991C0ED5299E919200DA4A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MHADON/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = making.MHADON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		991C0ED7299E919200DA4A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = making.MHADONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MHADON.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MHADON";
+			};
+			name = Debug;
+		};
+		991C0ED8299E919200DA4A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = making.MHADONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MHADON.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MHADON";
+			};
+			name = Release;
+		};
+		991C0EDA299E919200DA4A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = making.MHADONUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MHADON;
+			};
+			name = Debug;
+		};
+		991C0EDB299E919200DA4A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = making.MHADONUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MHADON;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		991C0EAA299E919100DA4A9C /* Build configuration list for PBXProject "MHADON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991C0ED1299E919200DA4A9C /* Debug */,
+				991C0ED2299E919200DA4A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991C0ED3299E919200DA4A9C /* Build configuration list for PBXNativeTarget "MHADON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991C0ED4299E919200DA4A9C /* Debug */,
+				991C0ED5299E919200DA4A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991C0ED6299E919200DA4A9C /* Build configuration list for PBXNativeTarget "MHADONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991C0ED7299E919200DA4A9C /* Debug */,
+				991C0ED8299E919200DA4A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991C0ED9299E919200DA4A9C /* Build configuration list for PBXNativeTarget "MHADONUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991C0EDA299E919200DA4A9C /* Debug */,
+				991C0EDB299E919200DA4A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 991C0EA7299E919100DA4A9C /* Project object */;
+}
